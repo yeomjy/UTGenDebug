@@ -12,7 +12,7 @@
 # Reference
 Please cite our paper as 
 ```
-@article{archiki2025unit,
+@article{prasad2025unit,
     title = {Learning to Generate Unit Tests for Automated Debugging},
     author = {Prasad, Archiki and Stengel-Eskin, Elias and Chen, Justin Chih-Yao and Khan, Zaid and Bansal, Mohit}, 
     year = {2025},
