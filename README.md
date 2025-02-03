@@ -2,10 +2,13 @@
 [Archiki Prasad](https://archiki.github.io/)\*, [Elias Stengel-Eskin](https://esteng.github.io/)\*, [Justin Chih-Yao Chen](https://dinobby.github.io/), [Zaid Khan](https://zaidkhan.me/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
 
 ## Overview
+This repository contains the code for our paper [Learning to Generate Unit Tests for Automated Debugging](). We present UTGen, a data curation and training pipeline for training models for unit test generation, and UTDebug, a debugging pipeline that uses generated unit tests for automated code-debugging using LLMs. In this repo, we provide the code for UTDebug to evaluate unit tests extrinsically and a script to evaluate attack rate, output accuracy, and acc $\cap$ attack on three debugging datasets: HE+Fix, MBPP+Fix, and MBPP+Fix (Hard).
 
 ## Dependencies
-
-## Datasets
+This project is built on Python 3.10.11. All dependencies can be installed via:
+```
+pip install -r requirements.txt
+```
 
 ## Scripts and Running UTDebug
 
