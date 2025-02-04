@@ -1,10 +1,10 @@
-# [Learning to Generate Unit Tests for Automated Debugging]()
+# [Learning to Generate Unit Tests for Automated Debugging](https://arxiv.org/abs/2502.01619)
 [Archiki Prasad](https://archiki.github.io/)\*, [Elias Stengel-Eskin](https://esteng.github.io/)\*, [Justin Chih-Yao Chen](https://dinobby.github.io/), [Zaid Khan](https://zaidkhan.me/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
 
 <img src="./assets/fig1.png" alt="Figure of the motivation for UTGen" width="500"/>
 
 ## Overview
-This repository contains the code for our paper [Learning to Generate Unit Tests for Automated Debugging](). We present UTGen, a data curation and training method for teching models to generate unit tests (inputs and outputs for a given function), and UTDebug, a debugging pipeline that uses generated unit tests for automated code-debugging with LLMs. In this repo, we provide the code for UTDebug to evaluate unit tests extrinsically and a script to evaluate attack rate, output accuracy, and acc $\cap$ attack on three debugging datasets: HE+Fix, MBPP+Fix, and MBPP+Fix (Hard).
+This repository contains the code for our paper [Learning to Generate Unit Tests for Automated Debugging](https://arxiv.org/abs/2502.01619). We present UTGen, a data curation and training method for teching models to generate unit tests (inputs and outputs for a given function), and UTDebug, a debugging pipeline that uses generated unit tests for automated code-debugging with LLMs. In this repo, we provide the code for UTDebug to evaluate unit tests extrinsically and a script to evaluate attack rate, output accuracy, and acc $\cap$ attack on three debugging datasets: HE+Fix, MBPP+Fix, and MBPP+Fix (Hard).
 
 ![UTDebug motivation and overview](assets/fig3.png)
 
@@ -44,6 +44,6 @@ Please cite our paper as
     title = {Learning to Generate Unit Tests for Automated Debugging},
     author = {Prasad, Archiki and Stengel-Eskin, Elias and Chen, Justin Chih-Yao and Khan, Zaid and Bansal, Mohit}, 
     year = {2025},
-    journal={arXiv preprint 2502.} 
+    journal={arXiv preprint 2502.01619} 
 }
 ```
